@@ -1,6 +1,6 @@
 # Basicapps
 
-1-Battery Removed İnserted
+1-Battery Removed İnserted (Beep Sound When Removed)
 
 2-Registered Windows Wifi Passwords
 
