@@ -4,7 +4,6 @@
 
 import psutil
 import winsound
-import time
 
 
 def sound():
