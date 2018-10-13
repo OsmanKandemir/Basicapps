@@ -9,3 +9,5 @@
 4-Wordpress 4.9.4 Username Exploit
 
 5-Time Interval Dollar Chart
+
+6-MD5+SALT Simple Password Compare
